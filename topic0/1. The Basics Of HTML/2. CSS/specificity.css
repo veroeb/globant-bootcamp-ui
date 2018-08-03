@@ -1,0 +1,23 @@
+.header{
+    font-size: 46px;
+}
+
+.navigation{
+    font-size: 12px;
+}
+
+.content{
+    font-size: 14px;
+}
+
+.sidebar{
+    font-size: 10px;
+}
+
+.footer{
+    font-size: 10px;
+}
+
+div[class$="r"] {
+    background: magenta;
+}
