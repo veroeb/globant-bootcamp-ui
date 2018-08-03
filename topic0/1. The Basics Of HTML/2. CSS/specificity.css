@@ -18,6 +18,16 @@
     font-size: 10px;
 }
 
-div[class$="r"] {
+/* div[class$="r"] {
     background: magenta;
+} */
+
+/*class ends with 'r'*/
+[class $= "r"] {
+    background: magenta;
+}
+
+/*class contains 'a' and doesn't end with 'r'*/
+[class ~= a] :not([class $= "r"]){ 
+    background-color: blue;
 }
